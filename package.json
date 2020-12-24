@@ -1,0 +1,27 @@
+{
+  "name": "pdshtml",
+  "version": "1.0.0",
+  "description": "psd to html",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s8mcmahon/psdhtml.git"
+  },
+  "author": "Sherri McMahon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s8mcmahon/psdhtml/issues"
+  },
+  "homepage": "https://github.com/s8mcmahon/psdhtml#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "modules": "^0.4.0",
+    "node": "^15.4.0"
+  }
+}
