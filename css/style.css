@@ -1,0 +1,29 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("../img/maintea.jpg");
+  height: 800px;
+  background-size: cover;
+}
+.logo {
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  list-style: none;
+  color: #fff;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+}
