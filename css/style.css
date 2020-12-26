@@ -1,21 +1,24 @@
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 header {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("../img/maintea.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url("../img/maintea1.jpg");
   height: 800px;
   background-size: cover;
+  text-align: center;
 }
 .logo {
   color: white;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   font-size: 40px;
 }
 nav {
   display: flex;
   justify-content: space-between;
+  padding: 50px 40px;
 }
 .nav-menu {
   list-style: none;
@@ -26,4 +29,50 @@ nav {
   display: inline-block;
   font-size: 20px;
   text-transform: uppercase;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-menu li a:hover {
+ color: rgb(196, 96, 30); 
+ transition: color 0.3s ease-in-out;
+}
+
+.header-title-1 {
+  color: rgb(196, 96, 30);
+  font-size: 40px;
+  font-family: "Berkshire Swash", cursive;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.header-title-2 {
+  color: #fff;
+  font-size: 55px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.header-cta-button {
+  color: white;
+  background: rgb(196, 96, 30);
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.header-cta-button:hover {
+  background-color: rgb(136, 71, 27);
+}
+.my-bag:hover {
+  color: rgb(136, 71, 27);
+}
+.my-search{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.my-search:hover {
+  color: rgb(136, 71, 27);
 }

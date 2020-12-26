@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/s8mcmahon/psdhtml#readme",
   "dependencies": {
+    "fontawesome": "^5.6.3",
     "lite-server": "^2.6.1",
     "modules": "^0.4.0",
     "node": "^15.4.0"
